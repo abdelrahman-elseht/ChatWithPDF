@@ -63,7 +63,7 @@ pdf_chatbot_app/
 
 ### Configuration (.env)
 
-1.  Navigate to the root directory of the project (`pdf_chatbot_app/`).
+1.  Navigate to the root directory of the project (`ChatWithPDF/`).
 2.  Create a file named `.env`.
 3.  Add your OpenRouter API key to it:
     ```env
@@ -78,8 +78,8 @@ pdf_chatbot_app/
 
 1.  **Clone the repository (or download files):**
     ```bash
-    git clone <repository_url>
-    cd pdf_chatbot_app
+    git clone https://github.com/abdelrahman-elseht/ChatWithPDF.git 
+    cd ChatWithPDF
     ```
 
 2.  **Create and activate a virtual environment (recommended):**
@@ -104,7 +104,7 @@ Choose one of the following methods to run the application. Ensure you have comp
 
 This script handles setting up `sys.path` correctly before invoking Streamlit.
 
-1.  Ensure you are in the project root directory (`pdf_chatbot_app/`).
+1.  Ensure you are in the project root directory (`ChatWithPDF/`).
 2.  Ensure your virtual environment is activated.
 3.  Run the script:
     ```bash
@@ -116,7 +116,7 @@ This script handles setting up `sys.path` correctly before invoking Streamlit.
 
 This method relies on the `sys.path` manipulation within `src/main.py`.
 
-1.  Ensure you are in the project root directory (`pdf_chatbot_app/`).
+1.  Ensure you are in the project root directory (`ChatWithPDF/`).
 2.  Ensure your virtual environment is activated.
 3.  Run Streamlit pointing to the main script within the `src` directory:
     ```bash
@@ -127,7 +127,7 @@ This method relies on the `sys.path` manipulation within `src/main.py`.
 ### Option 3: Using Docker (Recommended for Deployment)
 
 1.  Ensure Docker Desktop is running.
-2.  Ensure you are in the project root directory (`pdf_chatbot_app/`).
+2.  Ensure you are in the project root directory (`ChatWithPDF/`).
 3.  Ensure your `.env` file is created in the project root as described in the Configuration section.
 4.  Build and run with Docker Compose:
     ```bash
@@ -177,10 +177,3 @@ This method relies on the `sys.path` manipulation within `src/main.py`.
 *   **Deployment to cloud platforms.**
 *   **Unit and integration tests.**
 
-## 10. License
-
-This project is licensed under the MIT License. (Or specify your chosen license).
-
-## 11. Contributing
-
-Contributions are welcome! Please fork the repository, make your changes on a new branch, and submit a pull request. Ensure your code adheres to good coding practices and includes relevant documentation.
